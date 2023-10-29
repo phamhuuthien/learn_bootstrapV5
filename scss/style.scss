@@ -1,0 +1,26 @@
+
+
+// sử dụng nó như 1 modul nên ta dùng use
+@use"custom";
+
+
+// import component
+@use 'components/animations';
+@use 'components/buttons';
+@use 'components/mixins';
+@use 'components/typography';
+
+// import section
+
+@use 'sections/navbar';
+@use 'sections/intro-section';
+@use 'sections/campanies';
+@use 'sections/services';
+@use 'sections/testimonials';
+@use 'sections/fag';
+@use 'sections/portfolio';
+@use 'sections/get-stated';
+@use 'sections/footer';
+
+
+
